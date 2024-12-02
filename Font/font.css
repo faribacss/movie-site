@@ -1,0 +1,34 @@
+@font-face {
+    font-family: hipch;
+    src: url(./hipch___.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: mitra;
+    src: url(./MitraB.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: mahsa;
+    src: url(./BMahsa.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(./Vazir-Medium.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: strawberry;
+    src: url(./Strawberry\ Muffins\ Demo.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: andina;
+    src: url(./Andina\ Demo.otf) format(opentype);
+}
+
+@font-face {
+    font-family: rain;
+    src: url(./AYearWithoutRain.ttf) format(truetype);
+}

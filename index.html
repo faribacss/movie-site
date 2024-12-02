@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Site</title>
+    <link rel="stylesheet" href="./Font/font.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+     <script src="https://kit.fontawesome.com/d21b1ecfd7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="fari">
+        <p class="name">Fenchi Movies Site</p>
+        <ul class="list">
+            <li onclick="toggleElement()" class="product">Main Page</li>
+            <li onclick="toggleElement()" class="product">Series</li>
+            <li onclick="toggleElement()" class="product">Movies</li>
+            <li onclick="toggleElement()" class="product">Anime</li>
+            <li onclick="toggleElement()" class="product">More</li>
+            <li onclick="toggleElement()" class="product">Setting</li>
+        </ul>
+        <img class="logo" src="./image/fench.jpg" alt="">
+    </div>
+    <header class="header">
+        <form id="form">
+            <div class="hidden" id="myElement"></div>
+            <p class="login">LogIn / SignUp</p>
+            <input type="text" id="search" class="search" placeholder="جستجو">
+        </form>
+    </header>
+
+    <main id="main">
+        <div class="movie">
+            <img src="./image/opencode.jpg" alt="">
+
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="green">9.8</span>
+            </div>
+
+            <div class="overview">
+                <h3>OverView</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur hic, itaque repellat cupiditate odit nam reiciendis aspernatur? Blanditiis iure hic iste, ipsum rerum natus, fuga reiciendis perspiciatis sunt nostrum soluta.
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="./image/opencode.jpg" alt="">
+
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="orange">5.1</span>
+            </div>
+
+            <div class="overview">
+                <h3>OverView</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur hic, itaque repellat cupiditate odit nam reiciendis aspernatur? Blanditiis iure hic iste, ipsum rerum natus, fuga reiciendis perspiciatis sunt nostrum soluta.
+            </div>
+        </div>
+
+        <div class="movie">
+            <img src="./image/opencode.jpg" alt="">
+
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span class="red">4.3</span>
+            </div>
+
+            <div class="overview">
+                <h3>OverView</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur hic, itaque repellat cupiditate odit nam reiciendis aspernatur? Blanditiis iure hic iste, ipsum rerum natus, fuga reiciendis perspiciatis sunt nostrum soluta.
+            </div>
+        </div>
+    </main>
+    
+    <script src="./movie.js"></script>
+</body>
+</html>
